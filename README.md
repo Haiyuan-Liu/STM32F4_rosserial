@@ -1,4 +1,4 @@
-# STM32F4 communication with ROS via rosserial_python
+# DJI Robomaster STM32F4 + NvidiaTX2 communication with ROS via rosserial_python
 ## Harware
 - Nvidia TX2 installed a Ubuntu 16.04 system and ROS kinetic
 - DJI Robomaster development Board Type A, with a STM32F427IIH6 chip
