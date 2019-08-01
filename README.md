@@ -20,6 +20,6 @@ The first step is to updata the TX2 kernal, which can refer to the blog <https:/
 6. Restart the system:
 `reboot`  
 7. The usb device can be found with `ls -l /dev | grep ttyUSB`
+## rosserial for STM32
+### Motivation
 
-
-**I will finish it tomorrow**
