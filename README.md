@@ -25,7 +25,7 @@ The first step is to updata the TX2 kernal, which can refer to the blog <https:/
 Given the complexity of the protocol between the PC and the STM32 via serial port, it is much more convinent to wrap all the massages into a ROS message. By subscribing the topics, the information can be transfered easily.
 ### What's more
 The CUBEMX project is confied as <https://github.com/BugLiao/rosserial>.  
-**Attention:** The clock tree is configed is a little bit tricky. I use the following configeration:    
+**Attention:** The clock tree configeration is a little bit tricky. I use the following configeration:    
 ![text](https://github.com/madeira-sustcer/STM32F4_rosserial/blob/master/images/1.JPG?raw=true)
 ### Don't worry about this error. The conmunication is ok.  
 ![text](https://github.com/madeira-sustcer/STM32F4_rosserial/blob/master/images/4.png?raw=true)
