@@ -22,7 +22,7 @@ The first step is to updata the TX2 kernal, which can refer to the blog <https:/
 7. The usb device can be found with `ls -l /dev | grep ttyUSB`
 ## rosserial for STM32
 ### Motivation
-Given the complexity of the protocol between the PC and the STM32 via serial port, it is much more convinent to wrap all the massages into a ROS message. By subscribing the topics, the information can be transfored easily.
+Given the complexity of the protocol between the PC and the STM32 via serial port, it is much more convinent to wrap all the massages into a ROS message. By subscribing the topics, the information can be transfered easily.
 ### What's more
 The CUBEMX project is confied as <https://github.com/BugLiao/rosserial>.  
 **Attention:** The clock tree is configed is a little bit tricky. I use the following configeration:    
